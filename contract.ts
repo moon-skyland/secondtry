@@ -1,5 +1,6 @@
 import { client } from './utils/client'
 import contractAbi from './abi.json'
+import type { Address } from 'viem'
 
 const contractAddress = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS as Address
 
